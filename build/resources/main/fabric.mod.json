@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "genesismc-immersions",
+  "version": "0.0.1",
+
+  "name": "GenesisMC Immersions",
+  "description": "The Fabric mod for the plugin GenesisMC",
+  "authors": [
+    "LotisMC"
+  ],
+  "contact": {
+    "homepage": "https://genesismc.gitbook.io/genesismc/",
+    "sources": "https://github.com/LotisMC/GenesisMC-Immersions"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/immersions/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.lotis.immersions.GenesisMC_Immersions"
+    ]
+  },
+  "mixins": [
+    "immersions.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
